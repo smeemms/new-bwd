@@ -16,18 +16,21 @@
 </head>
 <body>
 
-    <h1 id="heading">DOM သင်ခန်းစာ</h1>
+    <h1 id="heading" style="color: blue;font-size: 50px;">DOM သင်ခန်းစာ</h1>
+    
     <p>
         Lorem ipsum dolor sit amet consectetur <b title="Hein Htet Zan" data="bb">HHZ</b> elit. Dicta molestiae soluta libero quas veniam officiis illum distinctio labore at, ad quis harum voluptatem est porro autem voluptates? Reprehenderit, dolores tempore.
     </p>
     <a href="https://google.com" target="_blink" >Click to Google</a>
+
+    <img src="../learnHTML/assets/poe.jpg" style="height: 200px;" alt="">
     <hr>
     <h4>Fruit List</h4>
     <ul>
         <li>Apple</li>
         <li class="abc">Orange</li>
-        <li>Mango</li>
-        <li data="bb">Banana</li>
+        <li data="cc">Mango</li>
+        <li hhz="bb" asdf='asdfjkl'>Banana</li>
     </ul>
     <hr>
     <h4>Student List</h4>
@@ -63,13 +66,13 @@
             <div class="mb-3">
                 <label>Photo</label>
                 <br>
-                <input type="file" name="photo" id="photo">
+                <input type="file" name="photo[]" id="photo" multiple>
             </div>
         
             <div class="mb-3">
                 <label>Select Your Country</label>
                 <br>
-                <select name="country" id="coutnry">
+                <select name="country" id="country">
                     <option value="mm">Myanmar</option>
                     <option value="jp">Japan</option>
                     <option value="kr">Korea</option>
@@ -80,6 +83,8 @@
             <button type="submit">Submit</button>
         </fieldset>
     </form>
+
+    <a href="#">Test Link</a>
 
 
 
@@ -108,7 +113,8 @@
                 return "I like "+everytihig;
             }
 
-        };       
+        };   
+        
 
     
 
